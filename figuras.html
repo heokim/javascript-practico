@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas | Curso Practico de JS </title>
+</head>
+
+<body>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Primer taller del curso practico de javascript</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un Cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">Ingrese la logitud de lado del Cuadrado</label>
+            <input id="InputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un Triangulo</h2>
+        <form action="">
+            <label for="InputTriangulo1, InputTriangulo2, InputTriangulo3, InputTriangulo4">Ingrese los 3 lados y la
+                altura del triangulo</label>
+            <div style="margin: 3px;"><input id="InputTriangulo1" type="number" placeholder="Lado 1"></div>
+            <div style="margin: 3px;"><input id="InputTriangulo2" type="number" placeholder="Lado 2"></div>
+            <div style="margin: 3px;"><input id="InputTriangulo3" type="number" placeholder="Base"></div>
+            <div style="margin: 3px;"><input id="InputTriangulo4" type="number" placeholder="Altura"></div>
+
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un Circulo</h2>
+        <form action="">
+            <label for="InputCirculo">Ingrese la logitud de lado del Circulo</label>
+            <input id="InputCirculo" type="number">
+            <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+            <button type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
+        </form>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+
+</html>
