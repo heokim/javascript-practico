@@ -14,3 +14,10 @@ codigo de las clases practica del curso de javascript practico
 - Segundo paso: implementar formulas en Javascript
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML
+
+## Taller #3: promedio, mediana, moda
+
+- Primero paso: definir las formulas
+- Segundo paso: implementar formulas en Javascript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
