@@ -1,5 +1,5 @@
-# javascript-practico
-codigo de las clases practica del curso de javascript practico
+# Curso de Javascript Practico de Platzi
+Codigo de las clases practica del curso de javascript practico
 
 ## Taller #1: figuras geometricas
 
